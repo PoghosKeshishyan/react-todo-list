@@ -1,0 +1,32 @@
+.App{
+    font-family: 'Arial';
+    text-transform: capitalize;
+}
+
+input{
+    text-transform: capitalize;
+}
+
+.Todo{
+    background-color: #cbd5e1;
+    margin: .2rem 0;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.times{
+    font-size: 1.6rem;
+    color: darkred;
+}
+
+.done{
+    background-color: #6ee7b7;
+}
